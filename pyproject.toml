@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nvs-vpr-eval"
+version = "0.1.0"
+description = "Database-side and query-side generated-view augmentation for visual place recognition"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+nvs-vpr = "nvs_vpr.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

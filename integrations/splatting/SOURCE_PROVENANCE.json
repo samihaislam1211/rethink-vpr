@@ -1,0 +1,15 @@
+{
+  "upstream": "https://github.com/pesser/splatting",
+  "source": "local source directory used by installed splatting0.0.0; no VCS commit metadata available",
+  "files": {
+    "cpp/splatting.cpp": "3996661646df78e4aea12645453302a01b483e60fddbf27751b6e9de9a5ad9c7",
+    "cuda/splatting.cu": "f3e2eb6f2f63cb4e35569339af01d8c84c7264c13f89cf0894807d294db71c00",
+    "cuda/splatting_cuda.cpp": "0bc9bd3471a95034c95882aed5a5567d5a19ec4026694c6a4c0165c7953a5f1b",
+    "splatting/__init__.py": "0addf4a08e813f088b7cfaf2fd05f757911318db853dfd410f3748b8b91d04e5",
+    "splatting/splatting.py": "137e155c424b537ab6954bf58a82ceaf6b476241134a154056cd1cf19370cc0c",
+    "LICENSE": "907ac302d3ed4f93d81fc7125a6e8c4b62b3962088d58bca6a814ef88af5a3fc",
+    "README.md": "a1dfaba8a2483f03bc20e2691dcbbfb8d977c872d67074fdb5203858e518c7db",
+    "setup.py": "905c6d004e7ae9fff73580cf930a053557bf8e5972966da5145799f5440a4889",
+    "requirements.txt": "6647b8314a965c8c1c888a358ad46dcd51955fdad5bc439a26fe0efd6aca8933"
+  }
+}

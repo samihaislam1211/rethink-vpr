@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "angle_units": "degrees",
+  "radius": "offset added to estimated mean metric depth; not a calibrated camera translation magnitude",
+  "schedules": {
+    "gp_st_database_elevation_v1": {
+      "poses": [
+        [
+          0.0,
+          5.0,
+          0.5
+        ],
+        [
+          0.0,
+          10.0,
+          0.5
+        ],
+        [
+          0.0,
+          15.0,
+          0.5
+        ],
+        [
+          0.0,
+          20.0,
+          0.5
+        ],
+        [
+          0.0,
+          25.0,
+          0.5
+        ],
+        [
+          0.0,
+          30.0,
+          0.5
+        ],
+        [
+          0.0,
+          40.0,
+          0.5
+        ],
+        [
+          0.0,
+          50.0,
+          0.5
+        ]
+      ],
+      "allowed": [
+        [
+          "GardensPoint",
+          "reference"
+        ],
+        [
+          "StLucia",
+          "reference"
+        ]
+      ],
+      "preprocessing": "center_square_lanczos512"
+    },
+    "pitts_database_elevation_v1": {
+      "poses": [
+        [
+          0.0,
+          5.0,
+          0.5
+        ],
+        [
+          0.0,
+          10.0,
+          0.5
+        ],
+        [
+          0.0,
+          15.0,
+          0.5
+        ],
+        [
+          0.0,
+          20.0,
+          0.5
+        ],
+        [
+          0.0,
+          25.0,
+          0.5
+        ],
+        [
+          0.0,
+          30.0,
+          0.5
+        ],
+        [
+          0.0,
+          40.0,
+          0.5
+        ],
+        [
+          0.0,
+          50.0,
+          0.5
+        ]
+      ],
+      "allowed": [
+        [
+          "Pittsburgh30k",
+          "reference"
+        ]
+      ],
+      "preprocessing": "raw_rgb"
+    },
+    "pitts_realistic_v1": {
+      "poses": [
+        [
+          -10.0,
+          0.0,
+          0.5
+        ],
+        [
+          10.0,
+          0.0,
+          0.5
+        ],
+        [
+          -20.0,
+          0.0,
+          0.5
+        ],
+        [
+          20.0,
+          0.0,
+          0.5
+        ],
+        [
+          -30.0,
+          5.0,
+          0.5
+        ],
+        [
+          30.0,
+          5.0,
+          0.5
+        ],
+        [
+          0.0,
+          -10.0,
+          0.5
+        ],
+        [
+          0.0,
+          15.0,
+          0.5
+        ]
+      ],
+      "allowed": [
+        [
+          "Pittsburgh30k",
+          "reference"
+        ],
+        [
+          "Pittsburgh30k",
+          "query"
+        ]
+      ],
+      "preprocessing": "raw_rgb"
+    },
+    "near_zero_v1": {
+      "poses": [
+        [
+          0.0,
+          0.0,
+          0.05
+        ],
+        [
+          0.0,
+          0.0,
+          0.05
+        ],
+        [
+          0.0,
+          0.0,
+          0.05
+        ],
+        [
+          0.0,
+          0.0,
+          0.05
+        ],
+        [
+          0.0,
+          0.0,
+          0.05
+        ],
+        [
+          0.0,
+          0.0,
+          0.05
+        ],
+        [
+          0.0,
+          0.0,
+          0.05
+        ],
+        [
+          0.0,
+          0.0,
+          0.05
+        ]
+      ],
+      "allowed": [
+        [
+          "GardensPoint",
+          "reference"
+        ],
+        [
+          "Pittsburgh30k",
+          "query"
+        ]
+      ],
+      "preprocessing": "per_source_base_protocol",
+      "note": "Historically measured only on448 Pittsburgh queries; GP smoke use is explicitly a new diagnostic."
+    },
+    "tokyo_database_elevation_v1": {
+      "poses": [
+        [
+          0.0,
+          5.0,
+          0.5
+        ],
+        [
+          0.0,
+          10.0,
+          0.5
+        ],
+        [
+          0.0,
+          15.0,
+          0.5
+        ],
+        [
+          0.0,
+          20.0,
+          0.5
+        ],
+        [
+          0.0,
+          25.0,
+          0.5
+        ],
+        [
+          0.0,
+          30.0,
+          0.5
+        ],
+        [
+          0.0,
+          40.0,
+          0.5
+        ],
+        [
+          0.0,
+          50.0,
+          0.5
+        ]
+      ],
+      "allowed": [
+        [
+          "Tokyo247",
+          "reference"
+        ]
+      ],
+      "preprocessing": "raw_rgb"
+    },
+    "tokyo_query_realistic_v1": {
+      "poses": [
+        [
+          -10.0,
+          0.0,
+          0.5
+        ],
+        [
+          10.0,
+          0.0,
+          0.5
+        ],
+        [
+          -20.0,
+          0.0,
+          0.5
+        ],
+        [
+          20.0,
+          0.0,
+          0.5
+        ],
+        [
+          -30.0,
+          5.0,
+          0.5
+        ],
+        [
+          30.0,
+          5.0,
+          0.5
+        ],
+        [
+          0.0,
+          -10.0,
+          0.5
+        ],
+        [
+          0.0,
+          15.0,
+          0.5
+        ]
+      ],
+      "allowed": [
+        [
+          "Tokyo247",
+          "query"
+        ]
+      ],
+      "preprocessing": "raw_rgb"
+    }
+  }
+}

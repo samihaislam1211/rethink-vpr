@@ -1,0 +1,51 @@
+{
+  "primary_descriptor": "CosPlace",
+  "budgets": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "budget_unit": "per selected original reference image",
+  "experiments": [
+    {
+      "key": "gp",
+      "dataset": "GardensPoint",
+      "family": "GardensPoint",
+      "sources": 200,
+      "schedule": "gp_st_database_elevation_v1"
+    },
+    {
+      "key": "st",
+      "dataset": "StLucia",
+      "family": "StLucia",
+      "sources": 200,
+      "schedule": "gp_st_database_elevation_v1"
+    },
+    {
+      "key": "pitts_elevation",
+      "dataset": "Pittsburgh30k",
+      "family": "Pitts30k",
+      "sources": 320,
+      "schedule": "pitts_database_elevation_v1"
+    },
+    {
+      "key": "pitts_realistic",
+      "dataset": "Pittsburgh30k",
+      "family": "Pitts30k_realistic",
+      "sources": 320,
+      "schedule": "pitts_realistic_v1"
+    },
+    {
+      "key": "tokyo",
+      "dataset": "Tokyo247",
+      "family": "Tokyo247",
+      "sources": 2392,
+      "schedule": "tokyo_database_elevation_v1"
+    }
+  ],
+  "arms": {
+    "fresh": "new generated views"
+  }
+}

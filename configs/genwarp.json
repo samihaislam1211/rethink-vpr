@@ -1,0 +1,19 @@
+{
+  "checkpoint_name": "multi1",
+  "depth_variant": "ZoeD_N",
+  "height": 512,
+  "width": 512,
+  "num_inference_steps": 20,
+  "guidance_scale": 3.5,
+  "half_precision_weights": true,
+  "focal_mm": 19.0,
+  "sensor_width_mm": 24.0,
+  "near": 0.01,
+  "far": 100.0,
+  "model_mode": "eval",
+  "depth_flip_aug": true,
+  "depth_pad_input": true,
+  "tf32": false,
+  "deterministic_cudnn": true,
+  "ddim_eta": 0.0
+}

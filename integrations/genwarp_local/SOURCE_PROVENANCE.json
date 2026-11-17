@@ -1,0 +1,70 @@
+{
+  "upstream": "https://github.com/sony/genwarp",
+  "local_git_HEAD": "22c03b6ae349013b7099801f4815cf1d0fd09c35",
+  "note": "Exact local source snapshot used by completed experiments, including local camera helper; hashes describe local bytes, not a claim of an unmodified upstream checkout. Dependencies and weights remain external.",
+  "files": {
+    "genwarp/GenWarp.py": {
+      "sha256": "c22059a59155bb3ea40ca5b647ead0f8228df250807a2c60a3ffbef04e7ef2b9"
+    },
+    "genwarp/__init__.py": {
+      "sha256": "2bc244e95e0823166d5daf47b24106543bd90e1dffa24c768d0898147d53b85e"
+    },
+    "genwarp/ops.py": {
+      "sha256": "26c7556723d657df75a564178505515c8b719031223b3c98bed4dece02c7db5b"
+    },
+    "genwarp/models/__init__.py": {
+      "sha256": "79316d7780d3e475dc2c807115c40853e4b02b30c4a6b63adc3672fb34c84e9e"
+    },
+    "genwarp/models/attention.py": {
+      "sha256": "155d67094ed86d23064f7f23c0ebf3c102d1dd623768e7ca16afdf82cae703d1"
+    },
+    "genwarp/models/motion_module.py": {
+      "sha256": "949e5c0f2e867ce4d9614cc1316c3c358c687e3fde8751d087291239a410edaa"
+    },
+    "genwarp/models/mutual_self_attention.py": {
+      "sha256": "9f31fc285df3341102ba795e49675c98366a6ab8bb1ee68ffef87d4fc26fa1bc"
+    },
+    "genwarp/models/pose_guider.py": {
+      "sha256": "7a4edf82fba2bbb53d9379b1bd269fffc3b60b300481571ef1a71be656369063"
+    },
+    "genwarp/models/resnet.py": {
+      "sha256": "e380a508ba76e2765b500aa4fb2f72df4ccbfe8fcd0f747bef0c86edb886e972"
+    },
+    "genwarp/models/transformer_2d.py": {
+      "sha256": "d16b46e91dbcc288bb20176cd42689a710addc38e100c45010230acc973cee76"
+    },
+    "genwarp/models/transformer_3d.py": {
+      "sha256": "defb7a83150588016a253f0b5f59611e064637c52faa94de685a9a80f7b39afe"
+    },
+    "genwarp/models/unet_2d_blocks.py": {
+      "sha256": "38ebf25a96309bd2d60d5ff393db8dd5bb036e947ec83a21c2a9178f43b93479"
+    },
+    "genwarp/models/unet_2d_condition.py": {
+      "sha256": "d79cfd95ed61dec06ce3be00313182711c6a9eb4b8d36c3fbd2760a52f40b1b7"
+    },
+    "genwarp/models/unet_3d.py": {
+      "sha256": "fbccf27c8a81afa4e4f46a24dde2876fc779aabcd53d425061fb277ac1cb3825"
+    },
+    "genwarp/models/unet_3d_blocks.py": {
+      "sha256": "ac6f6f0d81f4387c65182a0276a770ff340ae9e2b5a53295695be4b5bb77f262"
+    },
+    "extract_latents.py": {
+      "sha256": "b42da960544b414dfb050825da1b8657ab69e76a8bc041601ca0e5fd47acfe8b"
+    },
+    "generate_db_augmentation.py": {
+      "sha256": "ae7c4fcfc9c7f53abb0f71d4babbfae75aea92810f270da0a01681521de97ba3"
+    },
+    "requirements.txt": {
+      "sha256": "ca23cd9460b350be09d6a40e67cba1420c5e473f464c70d7c1446db70c3f722e"
+    },
+    "requirements_dev.txt": {
+      "sha256": "a87e43dfb403facc50459a759486cebd964724a815e24d18928a4cb6950227a2"
+    },
+    "LICENSE": {
+      "sha256": "157b6af8c1bc4eac646abdf17473934a85e8815ade3a346cd83a58a171586a73"
+    },
+    "NOTICE": {
+      "sha256": "af88e2105b894cffc129dfc48df6589b9168310ae753974f1251e0da7d1882e0"
+    }
+  }
+}

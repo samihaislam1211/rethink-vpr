@@ -1,0 +1,29 @@
+test_exact_paired_test_and_holm (test_algorithms.AlgorithmTests) ... ok
+test_float64_threshold_boundary_on_float32_signal (test_algorithms.AlgorithmTests) ... ok
+test_holdout_cannot_choose_training_threshold (test_algorithms.AlgorithmTests) ... ok
+test_max_fusion_and_tie_order (test_algorithms.AlgorithmTests) ... ok
+test_mean_and_confidence_uniform_fallback (test_algorithms.AlgorithmTests) ... ok
+test_negative_entropy_and_no_synthesis_inputs (test_algorithms.AlgorithmTests) ... ok
+test_oracle_only_expands_rescued_failures (test_algorithms.AlgorithmTests) ... ok
+test_recall_excludes_empty_gt (test_algorithms.AlgorithmTests) ... ok
+test_seed_uses_original_global_source_identity (test_algorithms.AlgorithmTests) ... ok
+test_union_top10_matches_complete_max (test_algorithms.AlgorithmTests) ... ok
+test01_application_sources_are_separate_from_run_outputs (test_application.PortableTests) ... ok
+test02_existing_run_cannot_be_overwritten (test_application.PortableTests) ... ok
+test03_no_large_or_private_payloads_in_inventory (test_application.PortableTests) ... ok
+test04_original_six_gpu_limit (test_application.PortableTests) ... ok
+test05_missing_assets_reported_before_computation (test_application.PortableTests) ... ok
+test06_dataset_counts_and_original_gt (test_application.PortableTests) ... ok
+test07_source_ids_not_reassigned_for_database_selection (test_application.PortableTests) ... ok
+test08_array_scheduler_command_and_limit (test_application.PortableTests) ... ok
+test09_cpu_jobs_request_no_gpu (test_application.PortableTests) ... ok
+test10_robustness_dispatches_fresh_tasks (test_application.PortableTests) ... ok
+test11_no_forged_slurm_allocation (test_application.PortableTests) ... ok
+test12_all_workflow_stages_exist (test_application.PortableTests) ... ok
+test13_strict_fresh_cache_rejects_changed_checkpoint_embedding_and_source (test_application.PortableTests) ... ok
+test14_all_application_modules_import_without_external_audit_code (test_application.PortableTests) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.624s
+
+OK

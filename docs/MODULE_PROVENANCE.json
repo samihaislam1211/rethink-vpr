@@ -1,0 +1,97 @@
+{
+  "baselines/data.py": {
+    "input_sha256": "a452d53770fea3fd3a0202a81d84bcdcefba534d35e847fd671cfb88edd7b768",
+    "application_sha256": "ac0ec0a7d66a66694e04636a67e869326c395ce6ef246aa0c025117f1f5ac875",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "baselines/extract.py": {
+    "input_sha256": "11ef525b2bbab11445f1814498f3c38577123495dccdf0b5cfb6af1169d45c5e",
+    "application_sha256": "c541abedd0a294b77aa0c82cb971f65974c212d0780eefa87c53e6a6292b30f5",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "generation/protocol.py": {
+    "input_sha256": "4e545145770a4d2640e5f34e8a6b0bd233807cc05d3fd73f8c1d5ceecc530829",
+    "application_sha256": "b2c74a78868178532df42f13227858644d8339ccc9c3203a765ba35017b57d7d",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "generation/engine.py": {
+    "input_sha256": "458223ad5528b8ecfdb9bd98a43eb9513978eeedc923f55fd2d61fd4de2bb096",
+    "application_sha256": "e8dea1264548b04380e043e8a3f634957e05a470878322d142234908c8bdbcac",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "database/common.py": {
+    "input_sha256": "8e4c8b4660172c63e056534bb8990f876983d864cea94633a2216629ace39c81",
+    "application_sha256": "01dbfaa67c95d02f5f03b6cb11614ec7c6cd42bc5936548d1a1da47fef8fe19d",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "database/synthesis.py": {
+    "input_sha256": "62fa7a6fe1e8753894148ede2dcc4d952f69c6ba119e271957d98c2c45a2f29b",
+    "application_sha256": "c3bb081e9f9238a680e7297b9a7227ffe8b61e4997326bf7bebd771beea10a44",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "database/features.py": {
+    "input_sha256": "659461070da151aff34682ad18c649773fa21b84f6c18508444d2c90b4bcf194",
+    "application_sha256": "8d8c65d5b4db1e1650e2240d0fbc24b55cc13b7d20b80640e40785f51855f606",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "database/retrieval.py": {
+    "input_sha256": "7ae49f6d9b8a8b7fb73f73a5ec333c72b2ef5927dca4c12850bd402ec92692bd",
+    "application_sha256": "c24c8d0e6f9bdd9be7879ea2435c1802613f0be90b7d4f151eae80e68a72ddbc",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "database/metrics.py": {
+    "input_sha256": "776c52987fd4ae7057de16dc2bd3be24bf7d91bc583fe3cae0dd43934d5c29ff",
+    "application_sha256": "776c52987fd4ae7057de16dc2bd3be24bf7d91bc583fe3cae0dd43934d5c29ff",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "query/common.py": {
+    "input_sha256": "9d7c796f0ef2b9817c2df41f2838c42aecd4d3aa8b51c15f73e3acc8fde7f1fe",
+    "application_sha256": "eb22dd51af9fe107a9eeaf487af6cea1d24f54be74eae0a36b25fc9fea0e6941",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "query/synthesis.py": {
+    "input_sha256": "11f7de74a6f8c8af68f761a539c03577b9a60dd820c77444b773b2d949917023",
+    "application_sha256": "44c123391f3f9a3ca63952ac82be3f657ef4f8060ad24695f0d4c6f4fba6d9aa",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "query/features.py": {
+    "input_sha256": "443a8163a528e7ebd032268b7e0a388085c84ef080cb9c25b50f04224ea5fe66",
+    "application_sha256": "70c095d45411ef17835be2eb9095e442ac9ddd74962f1463ae7a781d9243554d",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "query/retrieval.py": {
+    "input_sha256": "656e45ae39bbbc9a117dea5cadc860da5ff537a5ba59de30287fc5733178273f",
+    "application_sha256": "b06c204a93830a1ca748ec2eb73a2c2b78b2d0b82de532f7909f20122cea5f90",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "analysis/common.py": {
+    "input_sha256": "b3d0ec16b4d5c82414ad917e888807f7a71f2d1b3d24c8892dbd6903ade1e1c4",
+    "application_sha256": "598d72ea6451662cc1c466e85c839c637a7b75893dbfbec3b5bfeaa65dc8952b",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "analysis/statistics.py": {
+    "input_sha256": "6dcee607cdcb6ef6ecfa3cfa1005417701c8798f7cbab1232e11004e9b63a588",
+    "application_sha256": "25cfa466dc55ebc2283dc0fc849700f09de5ce07ef1c2beb7d3ac86165ada7bc",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "analysis/precision.py": {
+    "input_sha256": "b5661d092f3526a3a68aa7452d8fba50d66e2dbe5671751f5d3a0763b470d335",
+    "application_sha256": "f07b14ac57efcaa18f6ce10d5b5f778287742948d84c79c72e9f4f09eaa0f0eb",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "analysis/features.py": {
+    "input_sha256": "9791eba50212db7e9fdaefdf847d76ab474b01396aaaa0c4c2e31b340ac71b0e",
+    "application_sha256": "3a28ba988e3b6a183a1dcaa4433e1c5e8887c2dd8ab3f8fa903092ca99d1f549",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "analysis/retrieval.py": {
+    "input_sha256": "ace28ff5e5d7fe02470005567a2b2a4a78e97dee3f9df54c21d457541ff5736a",
+    "application_sha256": "0b9529eece8be3146665ef83a981b0a965d3e43e1514c746a54f71de025d7bba",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  },
+  "analysis/gating.py": {
+    "input_sha256": "731dcacef66702cac4b3bf141167219e85ed6b2440271297b752bf981d5ecbfd",
+    "application_sha256": "5e0df778b4f17195a4b84780e235dbab90951e3052ecb020c15ebb1a36d8e23b",
+    "adaptation": "functional package imports, configured runtime paths and strict new-run cache validation; retrieval/generation/statistical arithmetic retained"
+  }
+}

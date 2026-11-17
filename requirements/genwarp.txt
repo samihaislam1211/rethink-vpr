@@ -1,0 +1,19 @@
+# Bootstrap recipe; observed exact environments are recorded separately in config/.
+# Install torch2.0.1/torchvision0.15.2 CUDA11.8 first; build bundled splatting last.
+numpy==1.26.4
+Pillow==12.3.0
+scipy==1.15.3
+matplotlib==3.6.2
+diffusers==0.24.0
+transformers==4.36.2
+huggingface-hub==0.20.3
+accelerate==0.25.0
+timm==0.6.7
+einops==0.8.2
+omegaconf==2.3.0
+opencv-python==4.10.0.84
+roma==1.6.1
+jaxtyping==0.3.7
+safetensors==0.8.0
+ninja==1.13.2
+packaging

@@ -1,0 +1,2 @@
+# Application dependencies; install the matching CUDA torch/torchvision wheels first.
+-r requirements/vpr.txt

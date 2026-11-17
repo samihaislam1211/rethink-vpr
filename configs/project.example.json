@@ -1,0 +1,38 @@
+{
+  "work_dir": "/absolute/path/to/new-vpr-run",
+  "vpr_python": "/absolute/path/to/conda/envs/vpr/bin/python",
+  "genwarp_python": "/absolute/path/to/conda/envs/genwarp/bin/python",
+  "descriptor_checkpoints": "/absolute/path/to/descriptor-checkpoints",
+  "genwarp_checkpoints": "/absolute/path/to/genwarp/checkpoints",
+  "zoe_source": "/absolute/path/to/genwarp/extern/ZoeDepth",
+  "midas_source": "/absolute/path/to/MiDaS",
+  "depth_checkpoint": "/absolute/path/to/ZoeD_M12_N.pt",
+  "datasets": {
+    "GardensPoint": {
+      "reference": "/absolute/path/to/GardensPoint/day_right",
+      "query": "/absolute/path/to/GardensPoint/night_right"
+    },
+    "StLucia": {
+      "reference": "/absolute/path/to/StLucia_small/100909_0845",
+      "query": "/absolute/path/to/StLucia_small/180809_1545",
+      "gt_file": "/absolute/path/to/StLucia_small/GT.npz"
+    },
+    "Pittsburgh30k": {
+      "reference": "/absolute/path/to/pitts30k/images/test/database",
+      "query": "/absolute/path/to/pitts30k/images/test/queries"
+    },
+    "Tokyo247": {
+      "reference": "/absolute/path/to/tokyo247/images/test/database",
+      "query": "/absolute/path/to/tokyo247/images/test/queries"
+    }
+  },
+  "slurm": {
+    "partition": "gpuq",
+    "gpu_gres": "gpu:1",
+    "cpus": 4,
+    "memory": "16G",
+    "time": "24:00:00",
+    "max_gpus": 6
+  },
+  "cuda_home": "/usr/local/cuda-11.8"
+}
